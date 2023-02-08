@@ -9,6 +9,7 @@ Bu uygulama, ihtiyaç sahibi depremzedelerin hangi adreste, nelere ihtiyaçları
   - Telefon numarası ile sisteme kayıt olabilir.
   - Sistem tarafından girilen telefon numarasına sms gönderilir ve kullanıcıdan gelen sms’te yer alan kodu girmesi beklenir. 
   - KVKK metni onaylaması beklenir. 
+
 - Depremzedeler, 
   - İhtiyaç talebi oluşturabilir.
     - adres bilgi girişi

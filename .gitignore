@@ -47,7 +47,11 @@ app.*.map.json
 
 *.g.dart
 *.freezed.dart
+*.gen.dart
+*.g.theme.dart
 
 
 # FVM related
 .fvm/
+
+.firebase/

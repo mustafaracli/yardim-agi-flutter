@@ -1,5 +1,7 @@
-import 'package:deprem_destek/data/repository/auth_repository.dart';
-import 'package:deprem_destek/pages/auth_page/state/auth_state.dart';
+import 'dart:async';
+
+import 'package:afet_destek/data/repository/auth_repository.dart';
+import 'package:afet_destek/pages/auth_page/state/auth_state.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class AuthCubit extends Cubit<AuthState> {
@@ -7,6 +9,7 @@ class AuthCubit extends Cubit<AuthState> {
       : _authRepository = authRepository,
         super(const AuthState(status: AuthStateStatus.initial));
   final AuthRepository _authRepository;
+
   Future<void> sendSms({
     required String number,
   }) async {
